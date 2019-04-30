@@ -1,0 +1,37 @@
+body {
+    font-family: fantasy;
+    background-image: url("/images/rainbow_barf_dwarf.gif"); 
+    background-repeat: repeat;
+    background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: midnightblue;
+    color: antiquewhite;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.flex-container#main-content {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: midnightblue;
+    align-content: center;
+}
+
+.flex-container#form {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: midnightblue;
+    align-content: center;
+}
